@@ -1,0 +1,31 @@
+.container{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 60px ;
+    grid-template-areas:"padre padre padre"
+                        "madre hijo hijo1"
+                        "hijo2 hijo2 hijo2" ;
+}
+.padre{
+    grid-area: padre;
+    background-color: rgb(171, 227, 226);
+}
+.madre{
+    grid-area: madre;
+    background-color: rgb(255, 0, 0);
+}
+.hijo{
+    grid-area: hijo;
+    background-color: rgb(224, 216, 102);
+}
+.hijo1{
+    grid-area: hijo1;
+    background-color: rgb(17, 130, 60);
+
+}
+.hijo2{
+    grid-area: hijo2;
+    background-color: rgb(64, 188, 170);
+
+}
